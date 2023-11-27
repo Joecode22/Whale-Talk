@@ -24,11 +24,16 @@ This C++ program encapsulates the logic for translating text into Whale Talk. It
 - **Vector Usage**: A vector of characters (`std::vector<char>`) is used to store the vowels that are permissible in Whale Talk.
 - **Loops**: Iterative loops are employed to examine each character of the input and determine if it is a vowel that should be included in the output.
 - **Character Duplication**: For the characters 'u' and 'e', the program duplicates them in the output to emphasize their prolonged pronunciation in Whale Talk.
+- **Case Insensitivity**: The program has been enhanced to handle uppercase letters by converting all characters to lowercase before processing.
 
 #### How to Run
 
 1. Compile the `whale.cpp` file using a C++ compiler (e.g., `g++ whale.cpp -o whale`).
 2. Run the compiled program (e.g., `./whale` on Unix-based systems).
+
+## Acknowledgements
+
+This project was inspired by and based on an exercise from Codecademy. Codecademy's comprehensive and interactive learning platform provided the foundational knowledge and concept for the Whale Talk Translator. Their educational resources have been invaluable in learning programming concepts and applying them to fun and creative projects like this one.
 
 ## Conclusion
 
